@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="Css.css" />
+    <style>
+      @font-face {
+       font-family: Roboto;
+       src: url(Roboto-BoldItalic.ttf);
+      }
+     </style>
+<head>
+<title>Practica</title>
+<link ref="stylesheet" href="Css.css">
+</head>
+<body>	
+  <div class="background">
+    <div class="blur">
+
+      <div id="top">
+        <div id="calc-banner">Notation Calculator</div>
+        <div id="lang-btn">
+          <div id="ua-btn"></div>
+          <div id="en-btn" onclick="Enfunc()"></div>
+        </div>
+        <div id="lang-btn-hired" style="display: none;">
+          <div id="en-btn-hired" ></div>
+          <div id="ua-btn-hired"onclick="Uafunc()"></div>
+        </div>
+      </div>
+
+      <div id="container-ua" class="container" style="display: block;">
+        <div id="cont-about">
+          <div id="about-content">Программа працює з системами числення від 2 до 36.<br>Максимальне значення числа - це максимальна розмірність int32</div>
+        </div>
+        <div id="calculator">
+          <p>
+            <b>Число: </b>
+            <input id="numbua" class="edit-text-bottom-border" size="5">
+          </p>
+          <p>
+            <b>Записано у:</b>
+              <input id="from-notationua" class="notation-text" size="1">
+              <b>системі числення</b>.
+          </p>
+          <p>
+            <b>Занчення отримати в: </b>
+            <input id="to-notationua" class="notation-text" size="1">
+            <b>системі числення</b>.
+          </p>
+          <div class="calc-btn" onclick="CalculateNumbUa()" >Розрахувати</div>
+          <hr>
+          <div id="resultua" style="display:none;">Результат:
+           <div id="calcresultua" class="calc-result"></div>
+          </div>
+        </div>
+      </div>
+
+          <div id="container-en" class="container" style="display: none;">
+            <div id="cont-about">
+              <div id="about-content">The program works with number systems from 2 to 36. <br> The maximum value of a number is the maximum dimension int32</div>
+            </div>
+              <div id="calculator">
+                <p>
+                  <b>Number </b>
+                  <input id="numben" class="edit-text-bottom-border" size="5">
+                </p>
+                <p>
+                  <b>Written in:</b>
+                  <input id="from-notationen" class="notation-text" size="1">
+                  <b>number system</b>.
+                </p>
+                <p>
+                  <b>Value get in: </b>
+                  <input id="to-notationen" class="notation-text" size="1">
+                  <b>number system</b>.
+                </p>
+                <div class="calc-btn" onclick="CalculateNumbEn()" >Calculate</div>
+                <hr>
+                <div id="resulten" style="display:none;">Result:
+                  <div id="calcresulten" class="calc-result"></div>
+                </div>
+              </div>
+          </div>
+      <div id="auther">by Budak Mykhailo</div>
+    </div>
+  </div>
+  <script src="Js.js"></script>
+</body>
+</html>

@@ -1,0 +1,203 @@
+body{
+    background-color:#EFEFEF;
+    font-family: 'Roboto', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+.background {
+    background-image: url(photo-1497366216548-37526070297c.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.blur {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(2px);
+    height: 100vh;
+    width: 100%;
+  }
+#top{
+    background-color: #EFEFEF;
+    position: relative;
+    height: 6vh;
+    margin-left: 0;
+    margin-right: 0;
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 8px 25px 0 rgba(0,0,0,0.19);
+    margin-bottom: 140px;
+}
+#calc-banner{
+    color:#5b16dd;
+    font-size: 3em;
+    margin-left: 40px;
+    float: left;
+}
+#lang-btn{
+    width: 27px;
+    height: 27px;
+    border-radius: 35px;
+    margin-top: 1vh;
+    padding: 2px;
+    border:3px solid rgb(70 70 70);
+    float:right;
+    margin-right: 20px
+}
+#lang-btn:hover{
+    width: 80px;
+    height: 27px;
+    border-radius: 35px;
+}
+#ua-btn{
+    width: 27px;
+    height: 27px;
+    background-image: url(UA.png);
+    background-repeat: no-repeat;
+    float:right;
+}
+#en-btn{
+    width: 27px;
+    height: 27px;
+    margin-top: 1px;
+    background-image: url(USA.png);
+    background-repeat: no-repeat;
+    display: none;
+    float:left;
+}
+#lang-btn:hover #en-btn{
+    display: block;
+}
+#lang-btn-hired{
+    width: 27px;
+    height: 27px;
+    border-radius: 35px;
+    margin-top: 1vh;
+    padding: 2px;
+    border:3px solid rgb(70 70 70);
+    float:right;
+    margin-right: 20px
+}
+#lang-btn-hired:hover{
+    width: 80px;
+    height: 27px;
+    border-radius: 35px;
+}
+#en-btn-hired{
+    width: 27px;
+    height: 27px;
+    margin-top: 1px;
+    background-image: url(USA.png);
+    background-repeat: no-repeat;
+    float:right;
+}
+#ua-btn-hired{
+    width: 27px;
+    height: 27px;
+    background-image: url(UA.png);
+    background-repeat: no-repeat;
+    display: none;
+    float:left;
+}
+#lang-btn-hired:hover #ua-btn-hired{
+    margin-left: 1px;
+    margin-top: 1px;
+    display: block;
+}
+.container{
+    background-color: #EFEFEF;
+    padding-top: 80px;
+    padding-left: 80px;
+    width: 35%;
+    min-width: 630px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60vh;
+    border-radius: 25px;
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 8px 25px 0 rgba(0,0,0,0.19);
+    
+}
+#cont-about{
+    margin-bottom: 20px;
+}
+#about-content{
+    font-size: large;
+}
+
+#calculator{
+	background-color: #EFEFEF;
+	width: 550px;
+	height: 300px;
+    margin-right: auto;
+	margin-bottom: 20px;
+    font-size: x-large;
+    color: #292949;
+	text-align: left;
+    float:left;
+}
+#result{
+    font-size: larger;
+    font-weight: bold;
+}
+input {
+    outline: none;
+    color: #292949;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+}
+.edit-text-bottom-border {
+    border: none;
+    border-bottom: 1px solid #000;
+    min-width: 25px;
+    max-width: 85px;
+    font-size: 26px;
+    text-align: left;
+    background: transparent;
+}
+.notation-text{
+	border: none;
+    border-bottom: 1px solid #000;
+    min-width: 25px;
+    max-width: 45px;
+    font-size: 26px;
+    text-align: left;
+    background: transparent;
+}
+.calc-btn {
+    letter-spacing: 1px;
+    background-color: #5b16dd;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size:x-large;
+    font-weight: bold;
+    line-height: 1.4;
+    padding: 10px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+.calc-btn:hover {
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 8px 25px 0 rgba(0,0,0,0.19);
+}
+#auther{
+    color:#5b16dd;
+    font-size: large;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}

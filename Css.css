@@ -5,7 +5,7 @@ body{
 	margin: 0;
 }
 .background {
-    background-image: url(photo-1497366216548-37526070297c.jpg);
+    background-image: url(srcImg/photo-1497366216548-37526070297c.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,7 +51,7 @@ body{
 #ua-btn{
     width: 27px;
     height: 27px;
-    background-image: url(UA.png);
+    background-image: url(srcImg/UA.png);
     background-repeat: no-repeat;
     float:right;
 }
@@ -59,7 +59,7 @@ body{
     width: 27px;
     height: 27px;
     margin-top: 1px;
-    background-image: url(USA.png);
+    background-image: url(srcImg/USA.png);
     background-repeat: no-repeat;
     display: none;
     float:left;
@@ -86,14 +86,14 @@ body{
     width: 27px;
     height: 27px;
     margin-top: 1px;
-    background-image: url(USA.png);
+    background-image: url(srcImg/USA.png);
     background-repeat: no-repeat;
     float:right;
 }
 #ua-btn-hired{
     width: 27px;
     height: 27px;
-    background-image: url(UA.png);
+    background-image: url(srcImg/UA.png);
     background-repeat: no-repeat;
     display: none;
     float:left;
@@ -107,11 +107,10 @@ body{
     background-color: #EFEFEF;
     padding-top: 80px;
     padding-left: 80px;
-    width: 35%;
-    min-width: 630px;
+    width: 630px;
     margin-left: auto;
     margin-right: auto;
-    height: 60vh;
+    height: 700px;
     border-radius: 25px;
     box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 8px 25px 0 rgba(0,0,0,0.19);
     
